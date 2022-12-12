@@ -4,4 +4,140 @@
 
 main{
     font-family:'Plus Jakarta Sans',sans-serif;
+    
+}
+
+.middle-container{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    column-gap:50%;
+    background: linear-gradient(180deg,#FFF,#F7F2F2);
+    
+} 
+#animation{
+    border-radius: 10px;
+    border: 2px thin;
+    background-color: white;
+    box-shadow: 50px 10px 0px #f7f2f2;
+    height: auto;
+    max-width: 100%;
+    
+    
+    
+}
+#design{
+    border-radius: 10px;
+    border: 2px thin;
+    background-color: white;
+    box-shadow: 50px 10px 0px #f7f2f2;
+    height: auto;
+    max-width: 100%;
+ 
+    
+    
+}
+#photography{
+    border-radius: 10px;
+    border: 2px thin;
+    background-color: white;
+    box-shadow: 50px 10px 0px #f7f2f2;
+    height: auto;
+    max-width: 100%;
+}
+#crypto{
+    border-radius: 10px;
+    border: 2px thin;
+    background-color: white;
+    box-shadow: 50px 10px 0px #f7f2f2;
+    height: auto;
+    max-width: 100%;
+}
+#business{
+    border-radius: 10px;
+    border: 2px thin;
+    background-color: white;
+    box-shadow: 50px 10px 0px #F7F2F2;
+    height: auto;
+    max-width: 100%;
+}
+.light-text{
+    font-weight:200;
+    line-height: 26px;
+
+}
+/* For Mobile Device */
+@media only screen and (min-width:320px) and (max-width:480px){
+ .start-button{
+    background-color:#13183F;
+    color: #FFFF;
+    width:7rem;
+    height:2rem;
+    border-radius:5rem 5rem 5rem 5rem;
+    position: absolute;
+    left:250px;
+    top:18px;
+ }
+
+ .get-started{
+    color:#F74780;
+ }
+
+ .second-button{
+    background: linear-gradient(180deg,#FF6F48, #F02AA6);
+    width:8rem;
+    height:2rem;
+    border-radius:5rem 5rem 5rem 5rem;
+    border-color:linear-gradient(180deg,#FF6F48, #F02AA6);
+    border: thin;
+    color: white;
+ }  
+
+ .image{
+    background-image:url("./assets/image-hero-mobile.webp");
+    background-position: center;
+    background-size: cover;
+    margin:auto;
+    height:290px;
+    width:320px;  
+ }
+
+ #introduction{
+    color:white;
+    background: linear-gradient(180deg,#FF6F48, #F02AA6);
+    width:300px;
+    height:80px;
+    margin:auto;
+    border-radius:2.5%;
+ }
+ #introduction h3{
+    text-align: center;
+ }
+
+ .inline{
+    background-color:#13183F;
+    color: #FFF; 
+    height:80px; 
+    position: relative;
+ }
+
+ .inline input{
+    position: absolute;
+    left:220px;
+    bottom:20px;
+    background: linear-gradient(180deg,#8b48ff, #F02AA6);
+    width:8rem;
+    height:2rem;
+    border-radius:5rem 5rem 5rem 5rem;
+    border-color:linear-gradient(180deg,rgb(8, 8, 242), #F02AA6);
+    border: thin;
+    color: white;
+ }
+
+ .inline footer{
+    position: absolute;
+    right:280px;
+    bottom:30px;
+    font-weight: bold;
+ }
 }
