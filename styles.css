@@ -125,11 +125,11 @@ main{
     position: absolute;
     left:220px;
     bottom:20px;
-    background: linear-gradient(180deg,#8b48ff, #F02AA6);
+    background: linear-gradient(180deg,#6648ff, #F02AA6);
     width:8rem;
     height:2rem;
     border-radius:5rem 5rem 5rem 5rem;
-    border-color:linear-gradient(180deg,rgb(8, 8, 242), #F02AA6);
+    border-color:linear-gradient(180deg,blue, #F02AA6);
     border: thin;
     color: white;
  }
@@ -140,4 +140,13 @@ main{
     bottom:30px;
     font-weight: bold;
  }
+ .empty-div{
+    height: 50px;
+    background-color: #f7f2f2;
+    
+ }
+ .div-gaps{
+    height: 30px;
+    background-color: #f7f2f2;
+ } 
 }
