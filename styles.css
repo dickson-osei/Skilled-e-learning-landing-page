@@ -11,61 +11,68 @@ main{
     display: flex;
     justify-content:space-around;
     flex-direction: column;
-    column-gap:50%;
+    row-gap:50%;
     background: linear-gradient(180deg,#FFF,#F7F2F2);
     
 } 
 #animation{
-    border-radius: 10px;
-    border: 2px thin;
+    border-radius: 1.0em;
+    border: 0.5em thin;
     background-color: white;
-    box-shadow: 50px 10px 0px #f7f2f2;
+    box-shadow: 6vw 2vh 0vh #faf9f9;
     height: auto;
     max-width: 100%;
-    
-    
+    position: relative;   
     
 }
 #design{
-    border-radius: 10px;
-    border: 2px thin;
+   border-radius: 1.0em;
+    border: 0.5em thin;
     background-color: white;
-    box-shadow: 50px 10px 0px #f7f2f2;
+    box-shadow: 6vw 0vh 0vh #faf9f9;
     height: auto;
     max-width: 100%;
- 
-    
+    position: relative; 
     
 }
 #photography{
-    border-radius: 10px;
-    border: 2px thin;
+   border-radius: 1.0em;
+    border: 0.5em thin;
     background-color: white;
-    box-shadow: 50px 10px 0px #f7f2f2;
+    box-shadow: 6vw 0vh 0vh #faf9f9;
     height: auto;
     max-width: 100%;
+    position: relative;
 }
 #crypto{
-    border-radius: 10px;
-    border: 2px thin;
+   border-radius: 1.0em;
+    border: 0.5em thin;
     background-color: white;
-    box-shadow: 50px 10px 0px #f7f2f2;
+    box-shadow: 6vw 0vh 0vh #faf9f9;
     height: auto;
     max-width: 100%;
+    position: relative;
 }
 #business{
-    border-radius: 10px;
-    border: 2px thin;
+   border-radius: 1.0em;
+    border: 0.5em thin;
     background-color: white;
-    box-shadow: 50px 10px 0px #F7F2F2;
+    box-shadow: 6vw 0vh 0vh #faf9f9;
     height: auto;
     max-width: 100%;
+    position: relative;
 }
 .light-text{
     font-weight:200;
-    line-height: 26px;
+    line-height: 1.62em;
 
 }
+
+.content{
+   margin-left: 2vw;
+   
+}
+
 /* For Mobile Device */
 @media only screen and (min-width:320px) and (max-width:480px){
  .start-button{
@@ -75,8 +82,8 @@ main{
     height:2rem;
     border-radius:5rem 5rem 5rem 5rem;
     position: absolute;
-    left:250px;
-    top:18px;
+    left:65vw;
+    top:3vh;
  }
 
  .get-started{
@@ -98,35 +105,37 @@ main{
     background-position: center;
     background-size: cover;
     margin:auto;
-    height:290px;
-    width:320px;  
+    height:60vh;
+    width:88vw;  
  }
 
  #introduction{
     color:white;
     background: linear-gradient(180deg,#FF6F48, #F02AA6);
-    width:300px;
-    height:80px;
+    width:80vw;
+    height:16vh;
     margin:auto;
-    border-radius:2.5%;
+    border-radius:1.0em;
  }
  #introduction h3{
     text-align: center;
+    line-height: 1.62em;
  }
 
  .inline{
     background-color:#13183F;
-    color: #FFF; 
-    height:80px; 
+    color: #faf9f9; 
+    height:13vh; 
+    width:auto;
     position: relative;
  }
 
  .inline input{
     position: absolute;
-    left:220px;
-    bottom:20px;
+    left:60vw;
+    bottom:3vh;
     background: linear-gradient(180deg,#6648ff, #F02AA6);
-    width:8rem;
+    width:7rem;
     height:2rem;
     border-radius:5rem 5rem 5rem 5rem;
     border-color:linear-gradient(180deg,blue, #F02AA6);
@@ -136,17 +145,128 @@ main{
 
  .inline footer{
     position: absolute;
-    right:280px;
-    bottom:30px;
+    right:77vw;
+    bottom:4vh;
     font-weight: bold;
  }
  .empty-div{
-    height: 50px;
-    background-color: #f7f2f2;
+    height: 11vh;
+    background-color: #faf9f9;
     
  }
- .div-gaps{
-    height: 30px;
-    background-color: #f7f2f2;
- } 
+  .div-gaps{
+    height: 5vh;
+    background-color: #faf9f9;
+    width: 100vw;
+ }  
+
+ #animation img{
+   width: 12vw;
+   margin-left:3vw;
+ }
+
+ #design img{
+   position: absolute;
+   bottom: 26vh;
+   width: 12vw;
+   left: 3vw;
+
 }
+#photography img{
+   position: absolute;
+   bottom: 30vh;
+   width: 12vw;
+   left: 3vw;
+}
+#crypto img{
+   position: absolute;
+   bottom: 29vh;
+   width: 12vw;
+   left: 3vw;
+}
+#business img{
+   position: absolute;
+   bottom: 29vh;
+   width: 12vw;
+   left: 3vw;
+}
+}
+
+
+ /* For Tablets */
+  @media only screen and (min-width:481px) and (max-width:1280px){
+  
+  .main-container{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: repeat(7, auto);
+  }
+  .item1{
+     grid-column: 1/4;
+     grid-row: 1/2;
+     position: relative;
+     margin-left: 2.0vw;
+  }
+  
+  .item1 input{
+     position: absolute;
+     background-color:#13183F;
+     color: #FFFF;
+     width:7rem;
+     height:2.5rem;
+     border-radius:5rem 5rem 5rem 5rem;
+     left:110vw;
+     top:3vh;
+  }
+  
+  .item1 h2{
+     margin-left: 4.0vw;
+  }
+  
+  .item2{
+     grid-column: 1/3;
+     grid-row: 2/3;
+     margin-left: 4.9vw;
+  }
+  
+  .second-button{
+     background: linear-gradient(180deg,#FF6F48, #F02AA6);
+     width:10rem;
+     height:3rem;
+     border-radius:5rem 5rem 5rem 5rem;
+     border-color:linear-gradient(180deg,#FF6F48, #F02AA6);
+     border: thin;
+     color: white;
+  }
+  
+  .light-text{
+   font-size: 1.5em;
+  }
+  .image{
+     grid-column: 2/3;
+     grid-row: 3/4;
+     background-image:url("./assets/image-hero-tablet.webp");
+     background-position: center;
+     background-size: cover;
+     margin:auto;
+     height:35rem;
+     width:62rem;
+     position: absolute;
+     left:530px;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
