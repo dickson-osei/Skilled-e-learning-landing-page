@@ -395,7 +395,7 @@ main {
     background-image: url("./assets/image-hero-desktop.webp");
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 130vh;
     width: 150vw;
     margin-right: -18vw;
   }
@@ -403,7 +403,11 @@ main {
   .item2 .Max-skills {
     font-size: calc(16px + 0.390625vw);
     font-weight: 600;
-    margin-left: 6vw;
+    /* margin-left: 6vw; */
+    /* border: 2px solid; */
+    height: 50vh;
+    margin: auto;
+    padding-left: 6vw;
   }
 
   .item2 .light-text {
