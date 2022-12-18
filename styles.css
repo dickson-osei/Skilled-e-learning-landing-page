@@ -1,80 +1,74 @@
-*{
-    box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
 
-main{
-    font-family:'Plus Jakarta Sans',sans-serif;
-    overflow-x: hidden;
-    
+main {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  overflow-x: hidden;
 }
 
-.middle-container{
-    background: linear-gradient(180deg,#FFF,#F7F2F2);
-    display: flex;
-    justify-content: center;
-    justify-items: space-around;
-
-} 
-#animation{
-    border-radius: 1.0em;
-    border: 0.5em thin;
-    background-color: white;
-    height: auto;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin:3vh;      
+.middle-container {
+  background: linear-gradient(180deg, #fff, #f7f2f2);
+  display: flex;
+  justify-content: center;
+  justify-items: space-around;
+}
+#animation {
+  border-radius: 1em;
+  border: 0.5em thin;
+  background-color: white;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 3vh;
 }
 
-#design{
-   border-radius: 1.0em;
-    border: 0.5em thin;
-    background-color: white;
-    height: auto;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin:3vh;
-     
-    
+#design {
+  border-radius: 1em;
+  border: 0.5em thin;
+  background-color: white;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 3vh;
 }
-#photography{
-   border-radius: 1.0em;
-    border: 0.5em thin;
-    background-color: white;
-    height: auto;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin:3vh;
+#photography {
+  border-radius: 1em;
+  border: 0.5em thin;
+  background-color: white;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 3vh;
 }
-#crypto{
-   border-radius: 1.0em;
-    border: 0.5em thin;
-    background-color: white;
-    height: auto;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin:3vh;
+#crypto {
+  border-radius: 1em;
+  border: 0.5em thin;
+  background-color: white;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 3vh;
 }
 
-#business{
-   border-radius: 1.0em;
-    border: 0.5em thin;
-    background-color: white;
-    height: auto;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin:3vh;
-    /* margin-bottom: 8vh; */
-    
+#business {
+  border-radius: 1em;
+  border: 0.5em thin;
+  background-color: white;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 3vh;
+  /* margin-bottom: 8vh; */
 }
-.light-text{
-    font-weight:200;
-    line-height: 1.62em; 
-
+.light-text {
+  font-weight: 200;
+  line-height: 1.62em;
 }
 
 /* .content{
@@ -82,471 +76,441 @@ main{
    
 } */
 
-.item1{
-   display: flex;
-   justify-content: space-between;
-   padding: 10px;
-   height: 10vh;
+.item1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 10vh;
 }
 
-#skilled{
-   align-items: center;
-   margin: 0px;
-   display: flex;
-
+#skilled {
+  align-items: center;
+  margin: 0px;
+  display: flex;
 }
 
-#skilled h2{
-   font-size: 28px;
-   text-align: center;
-   justify-self:start;
+#skilled h2 {
+  font-size: 28px;
+  text-align: center;
+  justify-self: start;
 }
 
-.start-button{
-   height: 100%;
+.start-button {
+  height: 100%;
 }
 
-.item2{
-   display: flex;
-   /* border: 2px solid; */
-
+.item2 {
+  display: flex;
+  /* border: 2px solid; */
 }
- .item2 .Max-skills{
-   display: flex;
-   flex-direction: column;
- }
-
- .animation-content{
-   margin: auto;
-   margin-left: 2vw;
- }
-
- .design-content{
-   margin: auto;
-   margin-left: 2vw;
- }
-
-.photgraphy-content{
-   margin: auto;
-   margin-left: 2vw;
+.item2 .Max-skills {
+  display: flex;
+  flex-direction: column;
 }
 
- .crypto-content{
-   margin: auto;
-   margin-left: 2vw;
- }
+.animation-content {
+  margin: auto;
+  margin-left: 2vw;
+}
 
- .business-content{
-   margin: auto;
-   margin-left: 2vw;
-   
- }
+.design-content {
+  margin: auto;
+  margin-left: 2vw;
+}
 
- #logo{
-   margin-top:-3vh;
- }
+.photgraphy-content {
+  margin: auto;
+  margin-left: 2vw;
+}
+
+.crypto-content {
+  margin: auto;
+  margin-left: 2vw;
+}
+
+.business-content {
+  margin: auto;
+  margin-left: 2vw;
+}
+
+#logo {
+  margin-top: -3vh;
+}
 
 /* For Mobile Device */
-@media only screen and (min-width:320px) and (max-width:480px){
- #start-button{
-    background-color:#13183F;
-    color: #FFFF;
-    width:6.8rem;
-    height:100%;
-    border-radius:5rem 5rem 5rem 5rem;
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #start-button {
+    background-color: #13183f;
+    color: #ffff;
+    width: 6.8rem;
+    height: 100%;
+    border-radius: 5rem 5rem 5rem 5rem;
     justify-content: center;
     align-items: center;
+  }
 
- }
+  .item2 {
+    flex-direction: column;
+  }
 
+  .get-started {
+    color: #f74780;
+  }
 
- .item2{
-   flex-direction: column;
- }
-
- .get-started{
-    color:#F74780;
- }
-
- .second-button{
-    background: linear-gradient(180deg,#FF6F48, #F02AA6);
-    width:8rem;
-    height:2rem;
-    border-radius:5rem 5rem 5rem 5rem;
-    border-color:linear-gradient(180deg,#FF6F48, #F02AA6);
+  .second-button {
+    background: linear-gradient(180deg, #ff6f48, #f02aa6);
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5rem 5rem 5rem 5rem;
+    border-color: linear-gradient(180deg, #ff6f48, #f02aa6);
     border: thin;
     color: white;
- }  
+  }
 
- .image{
-    background-image:url("./assets/image-hero-mobile.webp");
+  .image {
+    background-image: url("./assets/image-hero-mobile.webp");
     background-position: center;
     background-size: cover;
     object-fit: cover;
-    margin:auto;
-    height:60vh;
-    width:88vw;  
- }
+    margin: auto;
+    height: 60vh;
+    width: 88vw;
+  }
 
- .middle-container{
-   flex-direction: column;
- }
+  .middle-container {
+    flex-direction: column;
+  }
 
-
- #introduction{
-    color:white;
-    background: linear-gradient(180deg,#FF6F48, #F02AA6);
-    width:80vw;
-    height:16vh;
-    margin:auto;
-    border-radius:1.0em;
- }
- #introduction h3{
+  #introduction {
+    color: white;
+    background: linear-gradient(180deg, #ff6f48, #f02aa6);
+    width: 80vw;
+    height: 16vh;
+    margin: auto;
+    border-radius: 1em;
+  }
+  #introduction h3 {
     text-align: center;
     line-height: 1.62em;
- }
+  }
 
- #business{
-   margin-bottom: 8vh;
- }
+  #business {
+    margin-bottom: 8vh;
+  }
 
- .inline{
-    background-color:#13183F;
-    color: #faf9f9; 
-    height:13vh; 
-    width:auto;
+  .inline {
+    background-color: #13183f;
+    color: #faf9f9;
+    height: 13vh;
+    width: auto;
     display: flex;
     justify-content: space-between;
     margin: auto;
- }
+  }
 
- .inline input{
-    background: linear-gradient(180deg,#6648ff, #F02AA6);
-    width:7rem;
-    height:2rem;
-    border-radius:5rem 5rem 5rem 5rem;
-    border-color:linear-gradient(180deg,blue, #F02AA6);
+  .inline input {
+    background: linear-gradient(180deg, #6648ff, #f02aa6);
+    width: 7rem;
+    height: 2rem;
+    border-radius: 5rem 5rem 5rem 5rem;
+    border-color: linear-gradient(180deg, blue, #f02aa6);
     border: thin;
     color: white;
     margin-top: 4vh;
-    margin-right:3.3vw;
- }
+    margin-right: 3.3vw;
+  }
 
- .inline footer{
-    width:7rem;
-    height:2rem;
+  .inline footer {
+    width: 7rem;
+    height: 2rem;
     font-weight: bold;
     margin-top: 4vh;
-    margin-left:3.3vw;
- }
- 
-
+    margin-left: 3.3vw;
+  }
 }
 
+/* For Tablets */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  #start-button {
+    background-color: #13183f;
+    color: #ffff;
+    width: 15rem;
+    height: 100%;
+    border-radius: 5rem 5rem 5rem 5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+  }
 
- /* For Tablets */
-  @media only screen and (min-width:481px) and (max-width:1280px)
-  {
-  
-   #start-button{
-      background-color:#13183F;
-      color: #FFFF;
-      width:15rem;
-      height:100%;
-      border-radius:5rem 5rem 5rem 5rem;
-      justify-content: center;
-      align-items: center;
-      font-size: 200%;
-   }
+  #skilled h2 {
+    font-size: 50px;
+    margin-left: 6vw;
+  }
 
-   #skilled h2{
-      font-size: 50px;
-      margin-left: 6vw;
-   }
-  
-   .image{
-      background-image:url("./assets/image-hero-tablet.webp");
-      background-position: center;
-      object-fit: cover;
-      background-size: cover;
-      height:60vh;
-      width:190vw;
-      margin-right: -18vw;
-      
-   }
+  .image {
+    background-image: url("./assets/image-hero-tablet.webp");
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    height: 60vh;
+    width: 190vw;
+    margin-right: -18vw;
+  }
 
-   .item2 .Max-skills{
-      font-size: calc(15px + 0.390625vw);
-      font-weight: 600;
-   }
+  .item2 .Max-skills {
+    font-size: calc(15px + 0.390625vw);
+    font-weight: 600;
+  }
 
-   .item2 .light-text{
-      font-size: calc(15px + 0.390625vw);
-   }
+  .item2 .light-text {
+    font-size: calc(15px + 0.390625vw);
+  }
 
-   .second-button{
-      background: linear-gradient(180deg,#FF6F48, #F02AA6);
-      width:12rem;
-      height:4rem;
-      border-radius:5rem 5rem 5rem 5rem;
-      border-color:linear-gradient(180deg,#FF6F48, #F02AA6);
-      border: thin;
-      color: white;
-      font-size: 1.5rem;
-   }
-   
-   .item2{
-      justify-content: center;
-      height: 100%;
-   }
+  .second-button {
+    background: linear-gradient(180deg, #ff6f48, #f02aa6);
+    width: 12rem;
+    height: 4rem;
+    border-radius: 5rem 5rem 5rem 5rem;
+    border-color: linear-gradient(180deg, #ff6f48, #f02aa6);
+    border: thin;
+    color: white;
+    font-size: 1.5rem;
+  }
 
-   .item2 .Max-skills{
-      margin-left: 6vw;
-   }
+  .item2 {
+    justify-content: center;
+    height: 100%;
+  }
 
-   .middle-container{
-      flex-wrap: wrap;
-      /* border: 2px solid; */
-      
-   }
+  .item2 .Max-skills {
+    margin-left: 6vw;
+  }
 
-   #introduction{
-      color:white;
-      background: linear-gradient(180deg,#FF6F48, #F02AA6);
-      width:38vw;
-      min-height:20vh;
-      margin:3vh;
-      border-radius:1.0em;
-      
-   }
+  .middle-container {
+    flex-wrap: wrap;
+    /* border: 2px solid; */
+  }
 
-   #introduction h3{
-      text-align: center;
-      line-height: 1.62em;
-      margin-top: 50%;
-      margin-bottom: 50%;
-      /* display: flex;
+  #introduction {
+    color: white;
+    background: linear-gradient(180deg, #ff6f48, #f02aa6);
+    width: 38vw;
+    min-height: 20vh;
+    margin: 3vh;
+    border-radius: 1em;
+  }
+
+  #introduction h3 {
+    text-align: center;
+    line-height: 1.62em;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    /* display: flex;
       justify-content: center; */
-   }
-   #animation{
-      width: 38vw;
-      
-      /* height: 35vh; */
-   }
+  }
+  #animation {
+    width: 38vw;
 
-   #design{
-      width: 38vw;
-      /* height: 35vh;   */
-   }
-
-   #photography{
-      width: 38vw;
-      /* height: 35vh; */
-   }
-
-   #crypto{
-      width: 38vw;
-      margin-bottom: 8vh;
-      /* height: 35vh; */
-   }
-
-   #business{
-      width: 38vw;
-      margin-bottom: 8vh;
-      /* height: 35vh; */
-   }
-
-   .get-started{
-      color:#F74780;
-   }
-
-   .inline{
-      background-color:#13183F;
-      color: #faf9f9; 
-      height:13vh; 
-      width:auto;
-      display: flex;
-      justify-content: space-between;
-      margin: auto;
-   }
-  
-   .inline input{
-      background: linear-gradient(180deg,#6648ff, #F02AA6);
-      width:10rem;
-      height:3rem;
-      border-radius:5rem 5rem 5rem 5rem;
-      border-color:linear-gradient(180deg,blue, #F02AA6);
-      border: thin;
-      color: white;
-      margin-top: 3vh;
-      margin-right:3.3vw;
-      font-size: 1.5rem;
-   }
-  
-   .inline footer{
-      width:7rem;
-      height:2rem;
-      font-weight: bold;
-      margin-top: 4vh;
-      margin-left:3.3vw;
-      font-size: 1.5rem;
-   }
-
+    /* height: 35vh; */
   }
 
-  /* For Desktop */
-  @media only screen and (min-width:1280px) {
-   #start-button{
-      background-color:#13183F;
-      color: #FFFF;
-      width:15rem;
-      height:100%;
-      border-radius:5rem 5rem 5rem 5rem;
-      justify-content: center;
-      align-items: center;
-      font-size: 200%;
-   }
-
-   #skilled h2{
-      font-size: 50px;
-      margin-left: 6vw;
-   }
-  
-   .image{
-      background-image:url("./assets/image-hero-desktop.webp");
-      background-position: center;
-      background-size: cover;
-      height:50vh;
-      width:150vw;
-      margin-right: -18vw;
-      
-   }
-
-   .item2 .Max-skills{
-      font-size: calc(16px + 0.390625vw);
-      font-weight: 600;
-      margin-left: 6vw;
-   }
-
-   .item2 .light-text{
-      font-size: calc(15px + 0.390625vw);
-   }
-
-   .second-button{
-      background: linear-gradient(180deg,#FF6F48, #F02AA6);
-      width:12rem;
-      height:4rem;
-      border-radius:5rem 5rem 5rem 5rem;
-      border-color:linear-gradient(180deg,#FF6F48, #F02AA6);
-      border: thin;
-      color: white;
-      font-size: 1.5rem;
-   }
-   .middle-container{
-      flex-wrap: wrap;
-      /* border: 2px solid; */
-      margin-top: 10vh;
-   }
-
-   #introduction{
-      color:white;
-      background: linear-gradient(180deg,#FF6F48, #F02AA6);
-      width:25vw;
-      min-height:20vh;
-      margin:3vh;
-      border-radius:1.0em;
-      
-   }
-
-   #introduction h3{
-      text-align: center;
-      line-height: 1.62em;
-      margin-top: 50%;
-      margin-bottom: 50%;
-     
-   }
-   #animation{
-      width: 25vw;
-      
-  
-   }
-
-   #design{
-      width: 25vw;
-      
-   }
-
-   #photography{
-      width: 25vw;
-      margin-bottom: 8vh;
-      
-   }
-
-   #crypto{
-      width: 25vw;
-      margin-bottom: 8vh;
-  
-   }
-
-   #business{
-      width: 25vw;
-      margin-bottom: 8vh;
-     
-   }
-
-   .get-started{
-      color:#F74780;
-   }
-
-   .inline{
-      background-color:#13183F;
-      color: #faf9f9; 
-      height:13vh; 
-      width:auto;
-      display: flex;
-      justify-content: space-between;
-      margin: auto;
-   }
-  
-   .inline input{
-      background: linear-gradient(180deg,#6648ff, #F02AA6);
-      width:10rem;
-      height:3rem;
-      border-radius:5rem 5rem 5rem 5rem;
-      border-color:linear-gradient(180deg,blue, #F02AA6);
-      border: thin;
-      color: white;
-      margin-top: 3vh;
-      margin-right:3.3vw;
-      font-size: 1.5rem;
-   }
-  
-   .inline footer{
-      width:7rem;
-      height:2rem;
-      font-weight: bold;
-      margin-top: 4vh;
-      margin-left:3.3vw;
-      font-size: 1.5rem;
-   }
-
-
-/* Desktop Active */
-#start-button:hover {
-   background-color: #666CA3;
-}
-
-.second-button:hover{
-   opacity: 0.5;
-}
-
-
-.inline input:hover{
-   opacity:0.5;
-}
-
-
-
-
-
+  #design {
+    width: 38vw;
+    /* height: 35vh;   */
   }
+
+  #photography {
+    width: 38vw;
+    /* height: 35vh; */
+  }
+
+  #crypto {
+    width: 38vw;
+    margin-bottom: 8vh;
+    /* height: 35vh; */
+  }
+
+  #business {
+    width: 38vw;
+    margin-bottom: 8vh;
+    /* height: 35vh; */
+  }
+
+  .get-started {
+    color: #f74780;
+  }
+
+  .inline {
+    background-color: #13183f;
+    color: #faf9f9;
+    height: 13vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .inline input {
+    background: linear-gradient(180deg, #6648ff, #f02aa6);
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5rem 5rem 5rem 5rem;
+    border-color: linear-gradient(180deg, blue, #f02aa6);
+    border: thin;
+    color: white;
+    margin-top: 3vh;
+    margin-right: 3.3vw;
+    font-size: 1.5rem;
+  }
+
+  .inline footer {
+    width: 7rem;
+    height: 2rem;
+    font-weight: bold;
+    margin-top: 4vh;
+    margin-left: 3.3vw;
+    font-size: 1.5rem;
+  }
+}
+
+/* For Desktop */
+@media only screen and (min-width: 1024px) {
+  #start-button {
+    background-color: #13183f;
+    color: #ffff;
+    width: 15rem;
+    height: 100%;
+    border-radius: 5rem 5rem 5rem 5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+  }
+
+  #skilled h2 {
+    font-size: 50px;
+    margin-left: 6vw;
+  }
+
+  .image {
+    background-image: url("./assets/image-hero-desktop.webp");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 150vw;
+    margin-right: -18vw;
+  }
+
+  .item2 .Max-skills {
+    font-size: calc(16px + 0.390625vw);
+    font-weight: 600;
+    margin-left: 6vw;
+  }
+
+  .item2 .light-text {
+    font-size: calc(15px + 0.390625vw);
+  }
+
+  .second-button {
+    background: linear-gradient(180deg, #ff6f48, #f02aa6);
+    width: 12rem;
+    height: 4rem;
+    border-radius: 5rem 5rem 5rem 5rem;
+    border-color: linear-gradient(180deg, #ff6f48, #f02aa6);
+    border: thin;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .middle-container {
+    flex-wrap: wrap;
+    /* border: 2px solid; */
+    margin-top: 10vh;
+  }
+
+  #introduction {
+    color: white;
+    background: linear-gradient(180deg, #ff6f48, #f02aa6);
+    width: 25vw;
+    min-height: 20vh;
+    margin: 3vh;
+    border-radius: 1em;
+  }
+
+  #introduction h3 {
+    text-align: center;
+    line-height: 1.62em;
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
+  #animation {
+    width: 25vw;
+  }
+
+  #design {
+    width: 25vw;
+  }
+
+  #photography {
+    width: 25vw;
+    margin-bottom: 8vh;
+  }
+
+  #crypto {
+    width: 25vw;
+    margin-bottom: 8vh;
+  }
+
+  #business {
+    width: 25vw;
+    margin-bottom: 8vh;
+  }
+
+  .get-started {
+    color: #f74780;
+  }
+
+  .inline {
+    background-color: #13183f;
+    color: #faf9f9;
+    height: 13vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .inline input {
+    background: linear-gradient(180deg, #6648ff, #f02aa6);
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5rem 5rem 5rem 5rem;
+    border-color: linear-gradient(180deg, blue, #f02aa6);
+    border: thin;
+    color: white;
+    margin-top: 3vh;
+    margin-right: 3.3vw;
+    font-size: 1.5rem;
+  }
+
+  .inline footer {
+    width: 7rem;
+    height: 2rem;
+    font-weight: bold;
+    margin-top: 4vh;
+    margin-left: 3.3vw;
+    font-size: 1.5rem;
+  }
+
+  /* Desktop Active */
+  #start-button:hover {
+    background-color: #666ca3;
+  }
+
+  .second-button:hover {
+    opacity: 0.5;
+  }
+
+  .inline input:hover {
+    background: linear-gradient(180deg, #8178af, #ef94cd);
+    /* opacity: 0.5; */
+  }
+}
