@@ -1,11 +1,11 @@
 # Title :Skilled-e-learning-landing-page
 
-Description
+Description:
 This is a responsive web page that fit all screen sizes.
 From mobile phone to Tablets and scale up for all available desktop screens.
 For mobile, min-width of 320px and a max width of 480px.
 For Tablets, min width of 480px and a max width of 1024px.
-Any width above these specified screen sizes firs perfectly for Desktops.
+Any width above these specified screen sizes fits perfectly for Desktops.
 
 Lessons Learnt
 This project really thought me everything can be styled and altered with CSS when your HTML is well organized. 
