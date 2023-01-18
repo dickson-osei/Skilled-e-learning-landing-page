@@ -189,9 +189,14 @@ main {
     margin: auto;
     border-radius: 1em;
   }
-  #introduction h3 {
+  #introduction p {
     text-align: center;
     line-height: 1.62em;
+  }
+
+  #C2::after{
+    content: '\a';
+    white-space: pre;
   }
 
   #business {
@@ -234,16 +239,16 @@ main {
   #start-button {
     background-color: #13183f;
     color: #ffff;
-    width: 15rem;
-    height: 100%;
+    width: 9.5rem;
+    height: 90%;
     border-radius: 5rem 5rem 5rem 5rem;
     justify-content: center;
     align-items: center;
-    font-size: 200%;
+    font-size: 100%;
   }
 
   #skilled h2 {
-    font-size: 50px;
+    font-size: 1.5rem;
     margin-left: 6vw;
   }
 
@@ -296,32 +301,53 @@ main {
     background: linear-gradient(180deg, #ff6f48, #f02aa6);
     width: 38vw;
     /* min-height: 20vh; */
-    height:auto;
+    height:25vh;
     margin: 3vh;
     border-radius: 1em;
+    justify-items: center;
+    justify-content: flex-start;
   }
 
-  #introduction h3 {
-    text-align: center;
+  #introduction p {
+    /* text-align: center; */
     line-height: 1.62em;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    align-self: flex-start;
+    font-weight: 700;
+    font-size: larger;
     /* display: flex;
       justify-content: center; */
   }
+
+  
+  #C2::after{
+    content: '\a';
+    white-space: pre;
+  }
+  
   #animation {
     width: 38vw;
+    /* height:25vh; */
 
     /* height: 35vh; */
   }
 
+  /* #A2::after{
+     content:'\a';
+     white-space: pre;
+     
+  } */
+
   #design {
     width: 38vw;
+    /* height:25vh; */
     /* height: 35vh;   */
   }
 
   #photography {
     width: 38vw;
+    /* height:25vh; */
     /* height: 35vh; */
   }
 
@@ -379,17 +405,18 @@ main {
   #start-button {
     background-color: #13183f;
     color: #ffff;
-    width: 15rem;
-    height: 100%;
+    width: 9rem;
+    height: 90%;
     border-radius: 5rem 5rem 5rem 5rem;
     justify-content: center;
     align-items: center;
-    font-size: 200%;
+    font-size: 100%;
   }
 
   #skilled h2 {
-    font-size: 50px;
+    font-size: 1.5rem;
     margin-left: 7.8vw;
+    
   }
 
   .image {
@@ -442,16 +469,30 @@ main {
     margin: 3vh;
     border-radius: 1em;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
-  #introduction h3 {
-    text-align: center;
+  #introduction p {
+    /* text-align: center; */
     line-height: 1.62em;
-    align-self: center;
-    /* margin-top: 50%;
-    margin-bottom: 50%; */
+    align-self:flex-start;
+    margin-left: 1.8vw;
+    font-size: larger;
+    font-weight: 700;
+    
   }
+
+  
+
+ #C1::after{
+  content: "\a";
+  white-space: pre;
+ }
+ 
+ #C3::after{
+  content: '\a';
+  white-space: pre;
+ }
   #animation {
     width: 25vw;
     height: auto;
@@ -483,6 +524,11 @@ main {
 
   .get-started {
     color: #f74780;
+  }
+
+  .get-started:hover{
+    opacity: 0.5;
+    cursor: pointer;
   }
 
   .inline {
@@ -520,10 +566,13 @@ main {
   /* Desktop Active */
   #start-button:hover {
     background-color: #666ca3;
+    border:#666ca3;
+    cursor: pointer;
   }
 
   .second-button:hover {
     opacity: 0.5;
+    cursor: pointer;
   }
 
   .inline input:hover {
