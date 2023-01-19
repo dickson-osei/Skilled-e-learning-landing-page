@@ -301,7 +301,7 @@ main {
     background: linear-gradient(180deg, #ff6f48, #f02aa6);
     width: 38vw;
     /* min-height: 20vh; */
-    height:25vh;
+    height:auto;
     margin: 3vh;
     border-radius: 1em;
     justify-items: center;
